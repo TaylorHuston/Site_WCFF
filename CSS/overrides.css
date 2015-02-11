@@ -1,0 +1,36 @@
+/*My CSS overrides for the Customizr template*/
+
+.widget-front.hover .round-div {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.round-div {
+  border-radius: 0;
+}
+
+.fp-button {
+  display: none;
+}
+
+.navbar-inner {
+  background-color: #394143;
+  background-image: none !important;
+  border: 1px solid #d4d4d4;
+  border-radius: 0px; 
+  box-shadow:  0px 0px 0px 0px rgba(0,0,0,.0) !important; 
+}
+
+.navbar .nav>li>a {
+    text-shadow: 0 0px 0;
+    color: #fff;
+}
+
+.navbar .nav>li.current-menu-ancestor>a, .navbar .nav>li.current-menu-item>a {
+    color: #c4c3c3;
+}
+
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    color: #c4c3c3;
+}
